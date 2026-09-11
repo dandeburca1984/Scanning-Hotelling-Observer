@@ -1,0 +1,58 @@
+2016-04-14T09:37:08Z aon: --START--
+2016-04-14T09:37:08Z aon: 	os: 0x6011db1
+2016-04-14T09:37:08Z aon: 	version: 2.2.3
+2016-04-14T09:37:08Z aon: 	revision: 38806
+2016-04-14T09:37:08Z aon: 	path: /branches/isl_alwayson_2_2_2/ISLAlwaysOn
+2016-04-14T09:37:08Z aon: 	cwd: C:\Users\daniel.burke\Dropbox\SHO
+2016-04-14T09:37:08Z aon: 	pid: 1928
+2016-04-14T09:37:08Z system locale (win): GetUserDefaultLCID() = 0x809, langid = 0x809, primary = 0x9, sub = 0x2
+2016-04-14T09:37:08Z system locale (win): matching language from list: [ar, bg, ca, cs, da, de, en, es, fr, hi, hr, it, ja, nl, pl, ptbr, pt, ru, sl, sr, srl, zh, zhs]
+2016-04-14T09:37:08Z system locale (win): ... ok, match found: en
+2016-04-14T09:37:08Z aon_main::main_gui: checked args silent=0 clean=0 overview=0
+2016-04-14T09:37:08Z ipc_priv::init_ipc_server: new pipe \\.\pipe\ipc3_1_ISLAlwaysOn (0000029C) 0
+2016-04-14T09:37:08Z aon_main::main_gui: created IPC 00A24D08
+2016-04-14T09:37:08Z hefa::ipc::run: pipe loop
+2016-04-14T09:37:08Z aon_main::main_gui: creating gui
+2016-04-14T09:37:08Z qt: Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+2016-04-14T09:37:09Z qt: Warning: QString::arg: Argument missing: officeit@obsmedical.com, ISL Online Network
+2016-04-14T09:37:09Z parse_filter: checking 
+2016-04-14T09:37:09Z aon_connection_set: rebuild_reg_connections 0 - count 1
+2016-04-14T09:37:09Z aon_connection: added new connecttion 0-Grid\ISL Online Network
+2016-04-14T09:37:09Z aon_connection_set: registering 1 - 440ccc15795318ce2a2ac181b5fe49e75e505b16fb7026ed5f0d36e0daaf9b58edaebca8e21206c7aad4d839166825755c61513eb02931df969a06c4d37f3283_ISL Online Network_ in connections
+2016-04-14T09:37:09Z aon_connection_set: ipcCommand share
+2016-04-14T09:37:09Z qt: Warning: QString::arg: Argument missing: officeit@obsmedical.com, ISL Online Network
+2016-04-14T09:37:09Z aon_connection: check_connect2 1
+2016-04-14T09:37:09Z aon_connection: connect rpc_null=1
+2016-04-14T09:37:09Z control_rpc: starting new connection thread to 0 - Grid\ISL Online Network
+2016-04-14T09:37:09Z control_rpc: before new control_rpc
+2016-04-14T09:37:09Z control_rpc: creating server connect thread...
+2016-04-14T09:37:09Z control_rpc: creating new thread pool...
+2016-04-14T09:37:09Z control_rpc: executing on thread pool...
+2016-04-14T09:37:09Z aon_connection: check_connect2 1
+2016-04-14T09:37:09Z aon_connection: connect rpc_null=0
+2016-04-14T09:37:09Z mux: requesting new server: alwayson-*.islonline.net
+2016-04-14T09:37:09Z mux: new server connection to alwayson-*.islonline.net on 1 append s_
+2016-04-14T09:37:09Z mux: starting new connection to alwayson-*.islonline.net (this=78176552)
+2016-04-14T09:37:09Z mux: try 1
+2016-04-14T09:37:09Z AutoTransport: added [:7615] to destination
+2016-04-14T09:37:09Z AutoTransport: destination: [alwayson-*.islonline.net:7615]
+2016-04-14T09:37:09Z AutoTransport: original destination: []
+2016-04-14T09:37:09Z AutoTransport: destination address was set to [alwayson-hkemihg.islonline.net]
+2016-04-14T09:37:09Z AutoTransport: connection list: [alwayson-hkemihg.islonline.net]
+2016-04-14T09:37:09Z AutoTransport: direct ports: [7615], HTTP=true, HTTPS=true
+2016-04-14T09:37:09Z AutoTransport: HTTP tunnel port: 80, HTTPS tunnel port: 443
+2016-04-14T09:37:09Z AutoTransport: initialized
+2016-04-14T09:37:09Z AutoTransport: trying to get a transport (7 secs timeout)
+2016-04-14T09:37:09Z AutoTransport: TCP connection to alwayson-hkemihg.islonline.net:7615 (1000)
+2016-04-14T09:37:09Z NetMT WSA win32: GetAddrInfoW node=[alwayson-hkemihg.islonline.net] service=7615 hints={ai_flags=0x0,ai_family=AF_UNSPEC,ai_socktype=SOCK_STREAM,ai_protocol=IPPROTO_TCP,ai_canonname=[],ai_addr={}}
+2016-04-14T09:37:10Z NetMT WSA win32: ... {ai_flags=0x0,ai_family=AF_INET,ai_socktype=SOCK_STREAM,ai_protocol=IPPROTO_TCP,ai_canonname=[],ai_addr={ss_family=AF_INET,sin_addr=193.169.3.7,sin_port=7615}}
+2016-04-14T09:37:10Z NetMT WSA win32: WSAConnect name={ss_family=AF_INET,sin_addr=193.169.3.7,sin_port=7615}
+2016-04-14T09:37:11Z AutoTransport: exception: :Error from 'WSAConnect' (called in '`anonymous-namespace'::tcp_connect_loop::run'): No connection could be made because the target machine actively refused it.
+2016-04-14T09:37:11Z AutoTransport: trying to get a transport (7 secs timeout)
+2016-04-14T09:37:11Z AutoTransport: WinINet HTTPS tunnel to alwayson-hkemihg.islonline.net:443->443 (999)
+2016-04-14T09:37:11Z WinINet layer: trying to load wininet.dll...
+2016-04-14T09:37:11Z WinINet layer: ... retrieving symbols
+2016-04-14T09:37:11Z WinINet layer: ... success
+2016-04-14T09:37:11Z WinINet connect thread: connecting to server alwayson-hkemihg.islonline.net:443
+2016-04-14T09:37:11Z WinINet connect thread: ==> sending main GET request [/webaccess/69643d32323932323337373826706f72743d343433]
+2016-04-14T09:37:11Z hefa::ipc::run: exiting pipe loop
